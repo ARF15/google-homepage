@@ -1,0 +1,67 @@
+#navBar {
+    border: 1px solid black;
+    right: 0;
+    top: 0;
+    left: 0;
+    position: absolute;
+    margin: 0;
+    padding: 0;
+}
+
+#googleLogo {
+    border:1px solid black;
+    margin-top: 10%;
+    padding: 1%;
+}
+
+#searchBox {
+    border: 1px solid black;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+    padding: 1%;
+}
+
+#searchBox input {
+    border: 1px solid red;
+    border-radius: 10px;
+    padding: 2px;
+    width: 100%
+}
+
+#buttonBorder {
+    border: 1px solid black;
+    width: 25%;
+    padding: 1%;
+}
+
+#googleSearchBtn {
+    margin-left: 115px;
+    background-color: #e7e7e7;
+    border: none;
+    border-radius: 5px;
+    padding: 2%;
+}
+
+#luckySearchBtn {
+    background-color: #e7e7e7;
+    border: none;
+    border-radius: 5px;
+    padding: 2%;
+}
+
+#footer {
+    border: 1px solid black;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    background-color: #e7e7e7;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+} 

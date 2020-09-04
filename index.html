@@ -1,16 +1,20 @@
 <!DOCTYPE html>
 <html>
+    <head>
+        <link rel="styleSheet" href="CSS/styles.css"
+    </head>
     <body>
-        <nav>Nav Bar Here</nav> <!-- About/Store                        Gmail/Images/Sign In-->
+        <nav id="navBar">Nav Bar Here</nav> <!-- About/Store    Gmail/Images/Sign In-->
 
-        <img src="logo.png" alt="Google Logo" style="width:272px;height:92px;">
-        <form>
+        <img id ="googleLogo" src="logo.png" alt="Google Logo" style="width:272px;height:92px;" class="center">
+        <form id="searchBox" class="center">
             <input type="text">
         </form>
-        <button>Google Search</button>
-        <button>I'm Feeling Lucky</button>
-        
+      <div id="buttonBorder" class="center">
+        <button id="googleSearchBtn">Google Search</button>
+        <button id="luckySearchBtn">I'm Feeling Lucky</button>
+      </div>
 
-        <footer>Footer Here</footer> <!--Advertising/Business/How Search Works                               Privacy/Terms/Settings-->
+        <footer id="footer">Footer Here</footer> <!--Advertising/Business/How Search Works       Privacy/Terms/Settings-->
     </body>
 </html>
